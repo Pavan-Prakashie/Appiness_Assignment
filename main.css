@@ -1,0 +1,599 @@
+*,body,html{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+/* .main {
+    background-image: url("images/Banner_mage.png");
+    width: 1440px;
+    height: auto;
+   
+    background-repeat: no-repeat;
+} 
+
+.logo {
+    width: 239px;
+    height: 150px;
+    margin-left: 155px;
+    margin-top: 30px;
+}
+
+.adult-paediatric-b {
+    color: #FFFFFF;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    width: 622px;
+    text-align: left;
+    height: 95px;
+    margin-left: 164px;
+    font-weight: bold;
+
+}
+
+
+
+.haematology-oncolo {
+    color: #FFFFFF;
+    font-family: StagSans;
+    font-size: 25px;
+    letter-spacing: 3.59px;
+    line-height: 34px;
+    width: 599px;
+    text-align: left;
+    margin-left: 164px;
+    opacity: 0.7;
+}
+
+.rectangle {
+    background-color: #DD5A6A;
+    border-radius: 3.2px;
+    width: 186px;
+    height: 45px;
+    margin-left: 158px;
+    color: white;
+}
+
+@media only screen and (max-width: 850px) {
+    .adult-paediatric-b  {
+        font-size: 25px;
+    letter-spacing: 1.28px;
+    line-height: 40px;
+    width: 300px;
+    text-align: left;
+    height: 95px;
+}
+}
+
+@media only screen and (max-width: 850px) {
+    .haematology-oncolo  {
+        color: #FFFFFF;
+    font-family: StagSans;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 34px;
+    width: 300px;
+    text-align: left;
+  
+    opacity: 0.7;
+    margin-top: 60px;
+}
+}
+
+
+
+
+.rectangle-form {
+    background-color: #FFFFFF;
+    box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+    width: 339px;
+    height: 492px;
+    margin-left: 175px;
+    margin-top: 26px;
+}
+
+.enquire-now {
+    color: #213559;
+    font-family: StagSans;
+    font-size: 20.08px;
+    line-height: 24px;
+    width: 147px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.rectangle-name {
+    border: 0.87px solid #D0D0D0;
+    width: 278px;
+    height: 42px;
+    padding-left: 20px;
+}
+
+.input-name {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.rectangle-email {
+    border: 0.87px solid #D0D0D0;
+    width: 278px;
+    height: 42px;
+    padding-left: 20px;
+}
+
+.input-email {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.rectangle-phone {
+    border: 0.87px solid #D0D0D0;
+    width: 278px;
+    height: 42px;
+    padding-left: 20px;
+}
+
+.input-phone {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.rectangle-message {
+    border: 0.87px solid #D0D0D0;
+    width: 278px;
+    height: 72px;
+    padding-left: 20px;
+}
+.input-message {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.rectangle-cap {
+background-color: #FFFFFF;
+border: 0.87px solid #D0D0D0;
+width: 278px;
+height: 77px;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.rectangle-form-buttom {
+background-color: #DD5A6A;
+width: 111px;
+height: 44px;
+margin-left: 20px;
+color: white;
+}*/
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('images/Banner_mage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+
+@media only screen and (max-width: 575px) {
+  .fg {
+      
+  margin-top: 500px;
+}
+}
+.rectangle-form{
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+.one{
+  color: #22B78E;
+      font-family: StagSans;
+      font-size: 24px;
+      letter-spacing: 0.99px;
+      line-height: 44px;
+}
+
+.six{
+  background-color: #DD5A6A;
+            border-radius: 3.2px;
+            width: 186px;
+            height: 45px;
+            color:white;
+}
+.two{
+  color: #1D5AA6;
+font-family: StagSans;
+font-size: 22px;
+letter-spacing: 1.76px;
+line-height: 26px;
+text-align: center;
+}
+.three{
+  color: #1D5AA6;
+font-family: StagSans;
+font-size: 15px;
+letter-spacing: 1.2px;
+line-height: 3px;
+text-align: center;
+}
+
+.five{
+  background-color: #6078ea;
+      border-radius: 4px;
+      width: 129px;
+      height: 49px;margin-bottom: 30px;color: white;
+}
+/* second section */
+.shutterstock-237963190 {
+    width: 422px;
+    height: 422px;
+}
+
+.rectangle-sec {
+    background-color: #6078EA;
+    border-radius: 4px;
+    width: 586px;
+    height: 95px;
+}
+
+.bone-marrow-transpla {
+    color: #FFFFFF;
+    font-family: StagSans;
+    font-size: 18px;
+    line-height: 26px;
+    width: 545px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.rectangle-box {
+    background-color: #FFFFFF;
+    width: 586px;
+    height: 75px;
+    border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+.replacement-of-disea {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    width: 532px;
+    text-align: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ /* section3 */
+ .doctors {
+    color: #22B78E;
+    font-family: StagSans;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    text-align: left;
+}
+
+.pediatric-bmt {
+    color: #22B78E;
+    font-family: StagSans;
+    font-size: 24px;
+    letter-spacing: 0.99px;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 188px;
+    margin-top: 30px;
+}
+
+.bitmap {
+    width: 255px;
+    height: 161px;
+    margin-left: 143px;
+    margin-top: 47px;
+}
+
+.dr-vijay-agarwal-copy {
+    color: #1D5AA6;
+    font-family: StagSans;
+    font-size: 22px;
+    letter-spacing: 1.76px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.md-mrcp-ph-d-cct-le-copy {
+    color: #1D5AA6;
+    font-family: StagSans;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    line-height: 3px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.line-5-copy {
+    border: 1px solid #22B78E;
+    width: 37px;
+    height: 1px;
+    margin-left: 40%;
+}
+
+.dr-vijay-agarwal-is-copy {
+    color: #000000;
+    font-family: StagSans;
+    font-size: 15px;
+    line-height: 20px;
+    width: 423px;
+    text-align: center;
+    margin-left: 10%;
+}
+.rectangle-b{
+background-color: #6078EA;
+border-radius: 4px;
+width: 129px;
+height: 49px;
+color: white;
+}
+.line-3-copy-6 {
+border: 1px solid #ECECFF;
+width: 415px;
+height: 2px;
+margin-left: 68px;
+}
+
+/* faq */
+
+import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+
+.content {
+width: 80%;
+padding: 20px;
+margin: 0 auto;
+padding: 0 60px 0 0;
+}
+
+.centerplease {
+margin: 0 auto;
+max-width: 270px;
+font-size: 40px;
+}
+
+.question {
+position: relative;
+background: #ffffff;
+margin: 0;
+padding: 10px 10px 10px 50px;
+display: block;
+width:100%;
+cursor: pointer;
+}
+
+.answers {
+background: rgb(255, 255, 255);
+padding: 0px 15px;
+margin: 5px 0;
+max-height: 0;
+overflow: hidden;
+z-index: -1;
+position: relative;
+opacity: 0;
+-webkit-transition: .7s ease;
+-moz-transition: .7s ease;
+-o-transition: .7s ease;
+transition: .7s ease;
+}
+
+.questions:checked ~ .answers{
+max-height: 500px;
+opacity: 1;
+padding: 15px;
+}
+
+.plus {
+text-align-last: right;
+z-index: 5;
+font-size: 2em;
+line-height: 100%;
+-webkit-user-select: none;    
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+-webkit-transition: .3s ease;
+-moz-transition: .3s ease;
+-o-transition: .3s ease;
+transition: .3s ease;
+}
+
+.questions:checked ~ .plus {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+
+.questions {
+display: none;
+}
+
+/* footer */
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+/* 
+?testinomial */
